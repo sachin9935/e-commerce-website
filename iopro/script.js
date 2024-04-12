@@ -7,6 +7,6 @@ function login() {
         alert("Login successful!");
         // Redirect to dashboard or desired page
     } else {
-        document.getElementById("error-msg").innerText = "Invalid username or password";
+        document.getElementById("error-msg").innerText = "Invalid username  or password";
     }
 }
